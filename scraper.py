@@ -87,6 +87,14 @@ def get_json(session: requests.Session, path: str, params=None, tries=5, delay=0
             if resp.status_code in (429, 500, 502, 503, 504):
                 time.sleep(delay * attempt * 2)
                 continue
+            if 400 <= resp.status_code < 500:
+                # Erro de regra de negócio (ex: lote em estado que a API recusa
+                # detalhar agora) — não é transitório, tentar de novo não ajuda.
+                try:
+                    detalhe = resp.json().get("message")
+                except (ValueError, AttributeError):
+                    detalhe = resp.text[:200]
+                raise RuntimeError(f"{resp.status_code} ao buscar {url}: {detalhe}")
             resp.raise_for_status()
         except (requests.RequestException, json.JSONDecodeError) as exc:
             last_exc = exc
@@ -97,6 +105,18 @@ def get_json(session: requests.Session, path: str, params=None, tries=5, delay=0
 def parse_edle(edle: str):
     unidade, numero, exercicio = edle.split("/")
     return unidade, numero, exercicio
+
+
+def url_lote(edle: str, nr_atribuido) -> str:
+    return f"https://www25.receita.fazenda.gov.br/sle-sociedade/portal/edital/{edle}/lote/{nr_atribuido}"
+
+
+def carregar_favoritos(path: str):
+    if not path or not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        config = json.load(f)
+    return [p.strip().upper() for p in config.get("palavrasChave", []) if p.strip()]
 
 
 def listar_editais_disponiveis(session: requests.Session, delay: float):
@@ -143,10 +163,15 @@ def _edital_mudou(fresh: dict, cached: dict) -> bool:
 
 
 def _lote_mudou(fresh_resumo: dict, cached_detalhe: dict) -> bool:
-    """Compara o resumo do lote (dentro do detalhe do edital) com o detalhe de lote já salvo."""
+    """Compara o resumo do lote (dentro do detalhe do edital) com o detalhe de lote já salvo.
+
+    Só usa campos que existem em ambas as respostas (api/edital/.../ e
+    api/lote/.../): "valorAvaliacao", por exemplo, só existe no primeiro, então
+    comparar esse campo aqui sempre daria "mudou" e anularia o cache.
+    """
     if cached_detalhe is None:
         return True
-    campos = ("situacaoLote", "nrAvisos", "nrErratas", "valorMinimo", "valorAvaliacao")
+    campos = ("situacaoLote", "nrAvisos", "nrErratas", "valorMinimo")
     for campo in campos:
         if fresh_resumo.get(campo) != cached_detalhe.get(campo):
             return True
@@ -164,6 +189,11 @@ def main():
     ap.add_argument("--limit-lotes", type=int, default=None, help="Limitar quantidade de lotes com detalhe buscado nesta execução (teste)")
     ap.add_argument("--only-editais", action="store_true", help="Não buscar detalhe de lote (mais rápido, sem itens de produto)")
     ap.add_argument("--force", action="store_true", help="Ignora o cache e refaz a varredura completa (edital e lote)")
+    ap.add_argument(
+        "--favoritos-file",
+        default=os.path.join(os.path.dirname(os.path.abspath(__file__)), "favoritos.json"),
+        help="Arquivo JSON com a lista de palavras-chave a monitorar (ex: PS5, Playstation)",
+    )
     args = ap.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)
@@ -198,7 +228,7 @@ def main():
     print(f"{len(editais)} edital(is) selecionado(s) nesta execução (de {len(edital_cache)} já conhecidos no total). Verificando mudanças...")
 
     contagem_edital = {"novo": 0, "atualizado": 0, "sem_mudanca": 0}
-    editais_para_checar_lotes = []
+    editais_selecionados = []
 
     for i, edital in enumerate(editais, 1):
         edle = edital["edle"]
@@ -214,11 +244,15 @@ def main():
             status = "novo" if cached is None else "atualizado"
             contagem_edital[status] += 1
             edital_cache[edle] = detalhe
-            editais_para_checar_lotes.append(detalhe)
             qt_lotes = len(detalhe.get("listaLotes") or [])
             print(f"  [{i}/{len(editais)}] {edle} - {status} - {detalhe.get('orgao')} / {detalhe.get('cidade')} - {qt_lotes} lote(s)")
         else:
             contagem_edital["sem_mudanca"] += 1
+            detalhe = cached
+        # Mesmo quando o edital não mudou, seus lotes ainda podem não ter sido
+        # buscados (ex.: execução anterior interrompida) — por isso todo
+        # edital selecionado entra na checagem de lotes, não só os que mudaram.
+        editais_selecionados.append(detalhe)
 
     editais_detalhados = list(edital_cache.values())
     with open(editais_detalhado_path, "w", encoding="utf-8") as f:
@@ -229,16 +263,18 @@ def main():
         f"{contagem_edital['sem_mudanca']} sem mudança (reaproveitado do cache)."
     )
 
+    favoritos = carregar_favoritos(args.favoritos_file)
+
     if args.only_editais:
         print("Opção --only-editais ativada: pulando detalhe de lotes/produtos.")
-        _consolidar(args.output_dir, editais_detalhados, lote_cache)
+        _consolidar(args.output_dir, editais_detalhados, lote_cache, favoritos)
         _registrar_execucao(args.output_dir, contagem_edital, {"novo": 0, "atualizado": 0, "sem_mudanca": 0, "erro": 0})
         print("Concluído.")
         return
 
     pendentes = []
     contagem_lote = {"novo": 0, "atualizado": 0, "sem_mudanca": 0}
-    for edital in editais_para_checar_lotes:
+    for edital in editais_selecionados:
         edle = edital["edle"]
         for lote in edital.get("listaLotes") or []:
             nr = lote.get("nrAtribuido")
@@ -293,7 +329,7 @@ def main():
     lotes_detalhe = _carregar_lotes_jsonl(lotes_path)
     if pendentes:
         _compactar_lotes_jsonl(lotes_path, lotes_detalhe)
-    _consolidar(args.output_dir, editais_detalhados, lotes_detalhe)
+    _consolidar(args.output_dir, editais_detalhados, lotes_detalhe, favoritos)
     contagem_lote["erro"] = contador["erro"]
     _registrar_execucao(args.output_dir, contagem_edital, contagem_lote)
     print("Concluído.")
@@ -343,9 +379,11 @@ def _carregar_lotes_jsonl(path: str):
     return resultado
 
 
-def _consolidar(output_dir: str, editais_detalhados, lotes_detalhe: dict):
+def _consolidar(output_dir: str, editais_detalhados, lotes_detalhe: dict, favoritos=None):
+    favoritos = favoritos or []
     completo = []
     linhas_csv = []
+    linhas_favoritos = []
 
     for edital in editais_detalhados:
         edle = edital.get("edle")
@@ -361,11 +399,15 @@ def _consolidar(output_dir: str, editais_detalhados, lotes_detalhe: dict):
                 lote_out["itensDetalhesLote"] = itens
             lotes_out.append(lote_out)
 
-            if itens:
-                for item in itens:
-                    linhas_csv.append(_linha_csv(edital, lote_out, item))
-            else:
-                linhas_csv.append(_linha_csv(edital, lote_out, {}))
+            registros = itens if itens else [{}]
+            for item in registros:
+                linha = _linha_csv(edital, lote_out, item)
+                linhas_csv.append(linha)
+                palavra = _achar_favorito(favoritos, lote_out, item)
+                if palavra:
+                    linha_favorito = dict(linha)
+                    linha_favorito["palavraChave"] = palavra
+                    linhas_favoritos.append(linha_favorito)
         edital_out["listaLotes"] = lotes_out
         completo.append(edital_out)
 
@@ -376,7 +418,7 @@ def _consolidar(output_dir: str, editais_detalhados, lotes_detalhe: dict):
         "edital", "edle", "situacaoLabel", "orgao", "cidade",
         "dataInicioPropostas", "dataFimPropostas", "dataAberturaLances",
         "lote", "tipoLote", "situacaoLote", "valorMinimo", "valorAvaliacao",
-        "descricaoItem", "quantidade", "unidadeMedida", "recintoArmazenador", "nrReferencia",
+        "descricaoItem", "quantidade", "unidadeMedida", "recintoArmazenador", "nrReferencia", "url",
     ]
     with open(os.path.join(output_dir, "produtos.csv"), "w", encoding="utf-8-sig", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=colunas)
@@ -384,7 +426,25 @@ def _consolidar(output_dir: str, editais_detalhados, lotes_detalhe: dict):
         for linha in linhas_csv:
             writer.writerow(linha)
 
+    with open(os.path.join(output_dir, "favoritos_encontrados.csv"), "w", encoding="utf-8-sig", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=colunas + ["palavraChave"])
+        writer.writeheader()
+        for linha in linhas_favoritos:
+            writer.writerow(linha)
+
     print(f"  {len(completo)} edital(is), {len(linhas_csv)} linha(s) de produto/lote em produtos.csv")
+    if favoritos:
+        print(f"  {len(linhas_favoritos)} item(ns) batendo com a lista de favoritos ({', '.join(favoritos)}) em favoritos_encontrados.csv")
+
+
+def _achar_favorito(favoritos, lote: dict, item: dict):
+    if not favoritos:
+        return None
+    texto = " ".join(str(v) for v in (lote.get("tipo"), item.get("descricao")) if v).upper()
+    for palavra in favoritos:
+        if palavra in texto:
+            return palavra
+    return None
 
 
 def _linha_csv(edital: dict, lote: dict, item: dict):
@@ -407,6 +467,7 @@ def _linha_csv(edital: dict, lote: dict, item: dict):
         "unidadeMedida": item.get("unMedida"),
         "recintoArmazenador": item.get("recintoArmazenador"),
         "nrReferencia": item.get("nrReferencia"),
+        "url": url_lote(edital.get("edle"), lote.get("nrAtribuido")),
     }
 
 
