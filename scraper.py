@@ -34,6 +34,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import sys
 import threading
 import time
@@ -442,7 +443,9 @@ def _achar_favorito(favoritos, lote: dict, item: dict):
         return None
     texto = " ".join(str(v) for v in (lote.get("tipo"), item.get("descricao")) if v).upper()
     for palavra in favoritos:
-        if palavra in texto:
+        # \b evita falso positivo tipo "PS5" batendo dentro de um código de
+        # peça como "LPS523" — exige que a palavra apareça isolada no texto.
+        if re.search(r"\b" + re.escape(palavra) + r"\b", texto):
             return palavra
     return None
 

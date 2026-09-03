@@ -3,3 +3,12 @@ __pycache__/
 *.pyc
 daily_log.txt
 scrape_log*.txt
+
+# Totalmente derivados de output/editais_detalhado.json + output/lotes.jsonl.
+# Ficam grandes (dezenas de MB) e cresceriam sem limite no historico do git
+# rodando diariamente; sao publicados como artefato de cada execucao do
+# Action em vez de versionados. Rode "python scraper.py" localmente para
+# gera-los quando precisar.
+output/produtos.csv
+output/leiloes_completo.json
+output/favoritos_encontrados.csv

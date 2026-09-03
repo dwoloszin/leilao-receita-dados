@@ -31,6 +31,16 @@ jobs:
       - name: Rodar scraper (modo incremental)
         run: python scraper.py --workers 6 --delay 0.2
 
+      - name: Publicar CSV/JSON consolidados como artefato
+        uses: actions/upload-artifact@v4
+        with:
+          name: dados-consolidados
+          path: |
+            output/produtos.csv
+            output/leiloes_completo.json
+            output/favoritos_encontrados.csv
+          retention-days: 90
+
       - name: Commit e push dos dados atualizados
         run: |
           git config user.name "github-actions[bot]"
