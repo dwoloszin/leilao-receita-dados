@@ -1,0 +1,44 @@
+name: Coleta diária - SLE Receita Federal
+
+on:
+  schedule:
+    - cron: "0 9 * * *"   # 09:00 UTC = 06:00 America/Sao_Paulo
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: coleta-diaria
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar scraper (modo incremental)
+        run: python scraper.py --workers 6 --delay 0.2
+
+      - name: Commit e push dos dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nesta execução."
+          else
+            git commit -m "Atualização diária de dados - $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi

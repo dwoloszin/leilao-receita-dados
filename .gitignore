@@ -1,0 +1,5 @@
+.env
+__pycache__/
+*.pyc
+daily_log.txt
+scrape_log.txt
