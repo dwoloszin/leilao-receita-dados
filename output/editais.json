@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-05 06:14",
+  "agora": "2026-09-06 06:14",
   "situacoes": [
     {
       "situacao": 2,
@@ -1204,20 +1204,6 @@
           "dataFimPropostas": "2025-10-13 21:00",
           "dataAberturaLances": "2025-10-14 10:30",
           "lotes": 21
-        },
-        {
-          "edital": "0700100/000005/2025",
-          "edle": "700100/5/2025",
-          "codigoSituacao": 12,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2025-10-02 09:00",
-          "dataFimPropostas": "2025-10-06 18:00",
-          "dataAberturaLances": "2025-10-07 10:00",
-          "lotes": 41
         }
       ]
     },
