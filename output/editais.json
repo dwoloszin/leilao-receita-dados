@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-08 06:17",
+  "agora": "2026-09-09 06:17",
   "situacoes": [
     {
       "situacao": 2,
@@ -102,11 +102,17 @@
           "dataFimPropostas": "2026-09-15 18:00",
           "dataAberturaLances": "2026-09-16 14:00",
           "lotes": 37
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0800100/000010/2026",
           "edle": "800100/10/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
@@ -120,7 +126,7 @@
         {
           "edital": "0600100/000004/2026",
           "edle": "600100/4/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
