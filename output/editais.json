@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-09 06:17",
+  "agora": "2026-09-10 06:17",
   "situacoes": [
     {
       "situacao": 2,
@@ -402,20 +402,6 @@
           "lotes": 232
         },
         {
-          "edital": "0317900/000002/2026",
-          "edle": "317900/2/2026",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "FORTALEZA",
-          "orgao": "RFB",
-          "cidade": "FORTALEZA",
-          "dataInicioPropostas": "2026-06-22 08:00",
-          "dataFimPropostas": "2026-06-26 21:00",
-          "dataAberturaLances": "2026-06-29 10:00",
-          "lotes": 217
-        },
-        {
           "edital": "0400100/000001/2026",
           "edle": "400100/1/2026",
           "codigoSituacao": 15,
@@ -771,6 +757,20 @@
       "situacao": 11,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0317900/000002/2026",
+          "edle": "317900/2/2026",
+          "codigoSituacao": 11,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "FORTALEZA",
+          "orgao": "RFB",
+          "cidade": "FORTALEZA",
+          "dataInicioPropostas": "2026-06-22 08:00",
+          "dataFimPropostas": "2026-06-26 21:00",
+          "dataAberturaLances": "2026-06-29 10:00",
+          "lotes": 217
+        },
         {
           "edital": "0900100/000005/2026",
           "edle": "900100/5/2026",
