@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-10 06:17",
+  "agora": "2026-09-11 06:17",
   "situacoes": [
     {
       "situacao": 2,
@@ -88,11 +88,17 @@
           "dataFimPropostas": "2026-09-21 21:00",
           "dataAberturaLances": "2026-09-22 10:30",
           "lotes": 430
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0717800/000003/2026",
           "edle": "717800/3/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "PORTO DE ITAGUAÍ",
@@ -102,13 +108,7 @@
           "dataFimPropostas": "2026-09-15 18:00",
           "dataAberturaLances": "2026-09-16 14:00",
           "lotes": 37
-        }
-      ]
-    },
-    {
-      "situacao": 3,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0800100/000010/2026",
           "edle": "800100/10/2026",
@@ -122,11 +122,17 @@
           "dataFimPropostas": "2026-09-14 21:00",
           "dataAberturaLances": "2026-09-15 10:00",
           "lotes": 269
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0600100/000004/2026",
           "edle": "600100/4/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
@@ -136,40 +142,6 @@
           "dataFimPropostas": "2026-09-10 21:00",
           "dataAberturaLances": "2026-09-11 10:00",
           "lotes": 79
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
-        {
-          "edital": "1000100/000004/2026",
-          "edle": "1000100/4/2026",
-          "codigoSituacao": 8,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 10ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "PORTO ALEGRE",
-          "dataInicioPropostas": "2026-08-25 12:00",
-          "dataFimPropostas": "2026-08-28 18:00",
-          "dataAberturaLances": "2026-08-31 14:00",
-          "lotes": 190
-        },
-        {
-          "edital": "0727600/000002/2026",
-          "edle": "727600/2/2026",
-          "codigoSituacao": 8,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "PORTO DE VITÓRIA",
-          "orgao": "RFB",
-          "cidade": "VITÓRIA",
-          "dataInicioPropostas": "2026-08-24 08:00",
-          "dataFimPropostas": "2026-08-27 18:00",
-          "dataAberturaLances": "2026-08-28 15:00",
-          "lotes": 1
         }
       ]
     },
@@ -190,6 +162,20 @@
           "dataFimPropostas": "2026-09-02 18:00",
           "dataAberturaLances": "2026-09-03 10:00",
           "lotes": 7
+        },
+        {
+          "edital": "1000100/000004/2026",
+          "edle": "1000100/4/2026",
+          "codigoSituacao": 15,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 10ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "PORTO ALEGRE",
+          "dataInicioPropostas": "2026-08-25 12:00",
+          "dataFimPropostas": "2026-08-28 18:00",
+          "dataAberturaLances": "2026-08-31 14:00",
+          "lotes": 190
         },
         {
           "edital": "0900100/000009/2026",
@@ -640,20 +626,6 @@
           "lotes": 420
         },
         {
-          "edital": "0700100/000001/2026",
-          "edle": "700100/1/2026",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2026-02-12 09:00",
-          "dataFimPropostas": "2026-02-23 18:00",
-          "dataAberturaLances": "2026-02-24 10:00",
-          "lotes": 61
-        },
-        {
           "edital": "0717800/000001/2026",
           "edle": "717800/1/2026",
           "codigoSituacao": 15,
@@ -680,20 +652,6 @@
           "dataFimPropostas": "2026-02-09 21:00",
           "dataAberturaLances": "2026-02-10 11:00",
           "lotes": 321
-        },
-        {
-          "edital": "0200100/000003/2025",
-          "edle": "200100/3/2025",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 2ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BELÉM",
-          "dataInicioPropostas": "2026-02-02 08:00",
-          "dataFimPropostas": "2026-02-09 20:00",
-          "dataAberturaLances": "2026-02-10 10:00",
-          "lotes": 200
         },
         {
           "edital": "0800100/000001/2026",
@@ -736,20 +694,6 @@
           "dataFimPropostas": "2025-12-03 18:00",
           "dataAberturaLances": "2025-12-04 14:00",
           "lotes": 18
-        },
-        {
-          "edital": "0900100/000009/2025",
-          "edle": "900100/9/2025",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "CURITIBA",
-          "dataInicioPropostas": "2025-10-13 08:00",
-          "dataFimPropostas": "2025-10-20 21:00",
-          "dataAberturaLances": "2025-10-21 10:00",
-          "lotes": 227
         }
       ]
     },
@@ -757,6 +701,20 @@
       "situacao": 11,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0727600/000002/2026",
+          "edle": "727600/2/2026",
+          "codigoSituacao": 11,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "PORTO DE VITÓRIA",
+          "orgao": "RFB",
+          "cidade": "VITÓRIA",
+          "dataInicioPropostas": "2026-08-24 08:00",
+          "dataFimPropostas": "2026-08-27 18:00",
+          "dataAberturaLances": "2026-08-28 15:00",
+          "lotes": 1
+        },
         {
           "edital": "0317900/000002/2026",
           "edle": "317900/2/2026",
@@ -828,6 +786,20 @@
           "lotes": 7
         },
         {
+          "edital": "0200100/000003/2025",
+          "edle": "200100/3/2025",
+          "codigoSituacao": 11,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 2ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BELÉM",
+          "dataInicioPropostas": "2026-02-02 08:00",
+          "dataFimPropostas": "2026-02-09 20:00",
+          "dataAberturaLances": "2026-02-10 10:00",
+          "lotes": 200
+        },
+        {
           "edital": "0100100/000006/2025",
           "edle": "100100/6/2025",
           "codigoSituacao": 11,
@@ -840,6 +812,20 @@
           "dataFimPropostas": "2025-11-24 21:00",
           "dataAberturaLances": "2025-11-25 10:30",
           "lotes": 280
+        },
+        {
+          "edital": "0900100/000009/2025",
+          "edle": "900100/9/2025",
+          "codigoSituacao": 11,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "CURITIBA",
+          "dataInicioPropostas": "2025-10-13 08:00",
+          "dataFimPropostas": "2025-10-20 21:00",
+          "dataAberturaLances": "2025-10-21 10:00",
+          "lotes": 227
         }
       ]
     },
@@ -1028,6 +1014,20 @@
           "dataFimPropostas": "2026-03-02 18:00",
           "dataAberturaLances": "2026-03-03 10:00",
           "lotes": 17
+        },
+        {
+          "edital": "0700100/000001/2026",
+          "edle": "700100/1/2026",
+          "codigoSituacao": 12,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-02-12 09:00",
+          "dataFimPropostas": "2026-02-23 18:00",
+          "dataAberturaLances": "2026-02-24 10:00",
+          "lotes": 61
         },
         {
           "edital": "0800100/000010/2025",
