@@ -1,10 +1,24 @@
 {
-  "agora": "2026-09-18 06:16",
+  "agora": "2026-09-20 06:15",
   "situacoes": [
     {
       "situacao": 2,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0800100/000011/2026",
+          "edle": "800100/11/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "SÃO PAULO",
+          "dataInicioPropostas": "2026-10-16 08:00",
+          "dataFimPropostas": "2026-10-22 21:00",
+          "dataAberturaLances": "2026-10-23 10:00",
+          "lotes": 21
+        },
         {
           "edital": "0900100/000011/2026",
           "edle": "900100/11/2026",
@@ -442,20 +456,6 @@
           "dataFimPropostas": "2026-06-29 21:00",
           "dataAberturaLances": "2026-06-30 10:00",
           "lotes": 232
-        },
-        {
-          "edital": "0400100/000001/2026",
-          "edle": "400100/1/2026",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 4ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "RECIFE",
-          "dataInicioPropostas": "2026-06-16 09:00",
-          "dataFimPropostas": "2026-06-18 21:00",
-          "dataAberturaLances": "2026-06-19 10:00",
-          "lotes": 83
         },
         {
           "edital": "0800100/000008/2026",
@@ -902,6 +902,20 @@
           "dataFimPropostas": "2026-07-08 18:00",
           "dataAberturaLances": "2026-07-09 10:00",
           "lotes": 1
+        },
+        {
+          "edital": "0400100/000001/2026",
+          "edle": "400100/1/2026",
+          "codigoSituacao": 12,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 4ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "RECIFE",
+          "dataInicioPropostas": "2026-06-16 09:00",
+          "dataFimPropostas": "2026-06-18 21:00",
+          "dataAberturaLances": "2026-06-19 10:00",
+          "lotes": 83
         },
         {
           "edital": "0600100/000002/2026",
