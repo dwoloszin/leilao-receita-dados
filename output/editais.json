@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-20 06:15",
+  "agora": "2026-09-21 06:22",
   "situacoes": [
     {
       "situacao": 2,
@@ -1196,20 +1196,6 @@
           "dataFimPropostas": "2025-11-12 21:00",
           "dataAberturaLances": "2025-11-13 10:00",
           "lotes": 80
-        },
-        {
-          "edital": "0717600/000006/2025",
-          "edle": "717600/6/2025",
-          "codigoSituacao": 12,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "PORTO DO RIO DE JANEIRO",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2025-10-29 09:00",
-          "dataFimPropostas": "2025-11-03 21:00",
-          "dataAberturaLances": "2025-11-04 10:00",
-          "lotes": 29
         },
         {
           "edital": "0717800/000005/2025",
