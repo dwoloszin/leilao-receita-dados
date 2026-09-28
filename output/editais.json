@@ -1,5 +1,5 @@
 {
-  "agora": "2026-09-27 06:16",
+  "agora": "2026-09-28 06:26",
   "situacoes": [
     {
       "situacao": 2,
@@ -1230,20 +1230,6 @@
           "dataFimPropostas": "2026-04-28 21:00",
           "dataAberturaLances": "2026-04-29 10:00",
           "lotes": 3
-        },
-        {
-          "edital": "0517800/000002/2025",
-          "edle": "517800/2/2025",
-          "codigoSituacao": 14,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SALVADOR",
-          "orgao": "RFB",
-          "cidade": "SALVADOR",
-          "dataInicioPropostas": "2025-10-24 08:00",
-          "dataFimPropostas": "2025-10-29 18:00",
-          "dataAberturaLances": "2025-10-30 10:00",
-          "lotes": 7
         }
       ]
     }
