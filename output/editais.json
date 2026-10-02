@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-01 06:19",
+  "agora": "2026-10-02 06:17",
   "situacoes": [
     {
       "situacao": 2,
@@ -162,13 +162,13 @@
       ]
     },
     {
-      "situacao": 4,
+      "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0600100/000005/2026",
           "edle": "600100/5/2026",
-          "codigoSituacao": 4,
+          "codigoSituacao": 8,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
@@ -178,13 +178,7 @@
           "dataFimPropostas": "2026-09-30 21:00",
           "dataAberturaLances": "2026-10-01 10:00",
           "lotes": 12
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0317900/000003/2026",
           "edle": "317900/3/2026",
@@ -198,20 +192,6 @@
           "dataFimPropostas": "2026-09-25 21:00",
           "dataAberturaLances": "2026-09-28 10:00",
           "lotes": 411
-        },
-        {
-          "edital": "0100100/000005/2026",
-          "edle": "100100/5/2026",
-          "codigoSituacao": 8,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BRASÍLIA",
-          "dataInicioPropostas": "2026-09-17 08:00",
-          "dataFimPropostas": "2026-09-21 21:00",
-          "dataAberturaLances": "2026-09-22 10:30",
-          "lotes": 430
         }
       ]
     },
@@ -232,6 +212,20 @@
           "dataFimPropostas": "2026-09-22 21:00",
           "dataAberturaLances": "2026-09-23 10:00",
           "lotes": 207
+        },
+        {
+          "edital": "0100100/000005/2026",
+          "edle": "100100/5/2026",
+          "codigoSituacao": 15,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BRASÍLIA",
+          "dataInicioPropostas": "2026-09-17 08:00",
+          "dataFimPropostas": "2026-09-21 21:00",
+          "dataAberturaLances": "2026-09-22 10:30",
+          "lotes": 430
         },
         {
           "edital": "0717800/000003/2026",
@@ -1224,20 +1218,6 @@
           "dataFimPropostas": "2025-11-17 21:00",
           "dataAberturaLances": "2025-11-18 10:00",
           "lotes": 500
-        },
-        {
-          "edital": "0717700/000003/2025",
-          "edle": "717700/3/2025",
-          "codigoSituacao": 12,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "AEROPORTO INTERNACIONAL DO GALEÃO",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2025-11-03 08:00",
-          "dataFimPropostas": "2025-11-12 18:00",
-          "dataAberturaLances": "2025-11-13 10:30",
-          "lotes": 11
         },
         {
           "edital": "0600100/000007/2025",
