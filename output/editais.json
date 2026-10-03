@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-02 06:17",
+  "agora": "2026-10-03 06:15",
   "situacoes": [
     {
       "situacao": 2,
@@ -32,6 +32,20 @@
           "dataFimPropostas": "2026-11-04 21:00",
           "dataAberturaLances": "2026-11-05 10:00",
           "lotes": 134
+        },
+        {
+          "edital": "0727600/000003/2026",
+          "edle": "727600/3/2026",
+          "codigoSituacao": 2,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "PORTO DE VITÓRIA",
+          "orgao": "RFB",
+          "cidade": "VITÓRIA",
+          "dataInicioPropostas": "2026-10-28 08:00",
+          "dataFimPropostas": "2026-10-29 18:00",
+          "dataAberturaLances": "2026-10-30 15:00",
+          "lotes": 38
         },
         {
           "edital": "0400100/000002/2026",
@@ -132,20 +146,6 @@
           "lotes": 400
         },
         {
-          "edital": "0800100/000012/2026",
-          "edle": "800100/12/2026",
-          "codigoSituacao": 2,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "SÃO PAULO",
-          "dataInicioPropostas": "2026-10-02 08:00",
-          "dataFimPropostas": "2026-10-08 18:00",
-          "dataAberturaLances": "2026-10-09 10:00",
-          "lotes": 106
-        },
-        {
           "edital": "0700100/000012/2026",
           "edle": "700100/12/2026",
           "codigoSituacao": 2,
@@ -158,6 +158,26 @@
           "dataFimPropostas": "2026-10-07 18:00",
           "dataAberturaLances": "2026-10-08 10:00",
           "lotes": 1
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
+        {
+          "edital": "0800100/000012/2026",
+          "edle": "800100/12/2026",
+          "codigoSituacao": 3,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "SÃO PAULO",
+          "dataInicioPropostas": "2026-10-02 08:00",
+          "dataFimPropostas": "2026-10-08 18:00",
+          "dataAberturaLances": "2026-10-09 10:00",
+          "lotes": 106
         }
       ]
     },
@@ -352,20 +372,6 @@
           "dataFimPropostas": "2026-08-12 18:00",
           "dataAberturaLances": "2026-08-13 10:30",
           "lotes": 10
-        },
-        {
-          "edital": "0600100/000003/2026",
-          "edle": "600100/3/2026",
-          "codigoSituacao": 15,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BELO HORIZONTE",
-          "dataInicioPropostas": "2026-08-10 08:00",
-          "dataFimPropostas": "2026-08-12 21:00",
-          "dataAberturaLances": "2026-08-13 10:00",
-          "lotes": 21
         },
         {
           "edital": "0700100/000009/2026",
@@ -897,6 +903,20 @@
       "situacao": 12,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0600100/000003/2026",
+          "edle": "600100/3/2026",
+          "codigoSituacao": 12,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BELO HORIZONTE",
+          "dataInicioPropostas": "2026-08-10 08:00",
+          "dataFimPropostas": "2026-08-12 21:00",
+          "dataAberturaLances": "2026-08-13 10:00",
+          "lotes": 21
+        },
         {
           "edital": "0700100/000008/2026",
           "edle": "700100/8/2026",
