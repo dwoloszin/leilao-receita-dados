@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-06 06:18",
+  "agora": "2026-10-07 06:19",
   "situacoes": [
     {
       "situacao": 2,
@@ -18,6 +18,20 @@
           "dataFimPropostas": "2026-11-11 18:00",
           "dataAberturaLances": "2026-11-12 10:30",
           "lotes": 9
+        },
+        {
+          "edital": "0717800/000004/2026",
+          "edle": "717800/4/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "PORTO DE ITAGUAÍ",
+          "orgao": "RFB",
+          "cidade": "ITAGUAÍ",
+          "dataInicioPropostas": "2026-11-05 11:00",
+          "dataFimPropostas": "2026-11-10 18:00",
+          "dataAberturaLances": "2026-11-11 14:00",
+          "lotes": 32
         },
         {
           "edital": "1000100/000005/2026",
@@ -144,20 +158,6 @@
           "dataFimPropostas": "2026-10-13 21:00",
           "dataAberturaLances": "2026-10-14 10:00",
           "lotes": 42
-        },
-        {
-          "edital": "0700100/000012/2026",
-          "edle": "700100/12/2026",
-          "codigoSituacao": 2,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2026-10-06 09:00",
-          "dataFimPropostas": "2026-10-07 18:00",
-          "dataAberturaLances": "2026-10-08 10:00",
-          "lotes": 1
         }
       ]
     },
@@ -192,6 +192,20 @@
           "dataFimPropostas": "2026-10-08 18:00",
           "dataAberturaLances": "2026-10-09 10:00",
           "lotes": 106
+        },
+        {
+          "edital": "0700100/000012/2026",
+          "edle": "700100/12/2026",
+          "codigoSituacao": 3,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-10-06 09:00",
+          "dataFimPropostas": "2026-10-07 18:00",
+          "dataAberturaLances": "2026-10-08 10:00",
+          "lotes": 1
         }
       ]
     },
@@ -212,11 +226,17 @@
           "dataFimPropostas": "2026-09-30 21:00",
           "dataAberturaLances": "2026-10-01 10:00",
           "lotes": 12
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 10,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0317900/000003/2026",
           "edle": "317900/3/2026",
-          "codigoSituacao": 8,
+          "codigoSituacao": 10,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "FORTALEZA",
