@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-07 06:19",
+  "agora": "2026-10-08 06:21",
   "situacoes": [
     {
       "situacao": 2,
@@ -192,11 +192,17 @@
           "dataFimPropostas": "2026-10-08 18:00",
           "dataAberturaLances": "2026-10-09 10:00",
           "lotes": 106
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0700100/000012/2026",
           "edle": "700100/12/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
@@ -230,13 +236,13 @@
       ]
     },
     {
-      "situacao": 10,
-      "editaisEstaoLimitados": false,
+      "situacao": 15,
+      "editaisEstaoLimitados": true,
       "lista": [
         {
           "edital": "0317900/000003/2026",
           "edle": "317900/3/2026",
-          "codigoSituacao": 10,
+          "codigoSituacao": 15,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "FORTALEZA",
@@ -246,13 +252,7 @@
           "dataFimPropostas": "2026-09-25 21:00",
           "dataAberturaLances": "2026-09-28 10:00",
           "lotes": 411
-        }
-      ]
-    },
-    {
-      "situacao": 15,
-      "editaisEstaoLimitados": true,
-      "lista": [
+        },
         {
           "edital": "0900100/000010/2026",
           "edle": "900100/10/2026",

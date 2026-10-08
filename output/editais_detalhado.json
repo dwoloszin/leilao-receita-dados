@@ -4164,7 +4164,7 @@
   {
     "edital": "0317900/000003/2026",
     "edle": "317900/3/2026",
-    "situacao": 10,
+    "situacao": 15,
     "permitePF": true,
     "tipo": 1,
     "orgao": "Receita Federal do Brasil",
@@ -15524,11 +15524,10 @@
       }
     ],
     "permissoes": [
-      "sala-disputa",
+      "ata-publicada",
       "extrato-leilao",
       "historico-leilao",
-      "Propostas-lances-lote",
-      "lista-lotes"
+      "Propostas-lances-lote"
     ],
     "dataResumo": null,
     "dataPublicacaoDou": null,
@@ -15555,8 +15554,8 @@
     "txInfoGru": null,
     "numeroGuiaLicitacaoInicial": null,
     "existemLotesSemDefinicaoReaproveitamento": false,
-    "situacaoCodigo": 10,
-    "situacaoLabel": "Encerrada Sessão Pública"
+    "situacaoCodigo": 15,
+    "situacaoLabel": "Encerrada Sessão Pública (ata publicada)"
   },
   {
     "edital": "0900100/000010/2026",
@@ -448955,7 +448954,7 @@
   {
     "edital": "0700100/000012/2026",
     "edle": "700100/12/2026",
-    "situacao": 3,
+    "situacao": 4,
     "permitePF": false,
     "tipo": 1,
     "orgao": "Receita Federal do Brasil",
@@ -448986,7 +448985,7 @@
         "nrAtribuido": 1,
         "situacaoEdital": 0,
         "tipo": "EXPORTAÇÃO",
-        "situacaoLote": 12,
+        "situacaoLote": 13,
         "valorMinimo": 306100,
         "valorAvaliacao": 1307215,
         "possuiImagens": true,
@@ -449050,8 +449049,8 @@
     "txInfoGru": null,
     "numeroGuiaLicitacaoInicial": null,
     "existemLotesSemDefinicaoReaproveitamento": false,
-    "situacaoCodigo": 3,
-    "situacaoLabel": "Aberto para Proposta"
+    "situacaoCodigo": 4,
+    "situacaoLabel": "Fechado para Proposta"
   },
   {
     "edital": "0900100/000011/2026",
