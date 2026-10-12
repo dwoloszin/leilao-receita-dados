@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-11 06:16",
+  "agora": "2026-10-12 06:32",
   "situacoes": [
     {
       "situacao": 2,
@@ -1272,20 +1272,6 @@
           "dataFimPropostas": "2025-11-26 18:00",
           "dataAberturaLances": "2025-11-27 10:00",
           "lotes": 24
-        },
-        {
-          "edital": "0900100/000010/2025",
-          "edle": "900100/10/2025",
-          "codigoSituacao": 12,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "CURITIBA",
-          "dataInicioPropostas": "2025-11-10 08:00",
-          "dataFimPropostas": "2025-11-17 21:00",
-          "dataAberturaLances": "2025-11-18 10:00",
-          "lotes": 500
         }
       ]
     },
