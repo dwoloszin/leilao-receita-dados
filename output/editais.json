@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-15 06:16",
+  "agora": "2026-10-16 06:16",
   "situacoes": [
     {
       "situacao": 2,
@@ -196,26 +196,6 @@
       ]
     },
     {
-      "situacao": 4,
-      "editaisEstaoLimitados": false,
-      "lista": [
-        {
-          "edital": "0717600/000006/2026",
-          "edle": "717600/6/2026",
-          "codigoSituacao": 4,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "PORTO DO RIO DE JANEIRO",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2026-10-13 09:00",
-          "dataFimPropostas": "2026-10-14 21:00",
-          "dataAberturaLances": "2026-10-15 14:00",
-          "lotes": 77
-        }
-      ]
-    },
-    {
       "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
@@ -267,6 +247,20 @@
       "situacao": 15,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0717600/000006/2026",
+          "edle": "717600/6/2026",
+          "codigoSituacao": 15,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "PORTO DO RIO DE JANEIRO",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-10-13 09:00",
+          "dataFimPropostas": "2026-10-14 21:00",
+          "dataAberturaLances": "2026-10-15 14:00",
+          "lotes": 77
+        },
         {
           "edital": "0700100/000012/2026",
           "edle": "700100/12/2026",
