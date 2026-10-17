@@ -474222,7 +474222,7 @@
   {
     "edital": "0800100/000011/2026",
     "edle": "800100/11/2026",
-    "situacao": 2,
+    "situacao": 3,
     "permitePF": false,
     "tipo": 1,
     "orgao": "Receita Federal do Brasil",
@@ -474253,7 +474253,7 @@
         "nrAtribuido": 1,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 100,
         "valorAvaliacao": 200,
         "possuiImagens": false,
@@ -474280,7 +474280,7 @@
         "nrAtribuido": 2,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 100,
         "valorAvaliacao": 450,
         "possuiImagens": false,
@@ -474307,7 +474307,7 @@
         "nrAtribuido": 3,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 1750,
         "valorAvaliacao": 2500,
         "possuiImagens": false,
@@ -474334,10 +474334,10 @@
         "nrAtribuido": 4,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 3500,
         "valorAvaliacao": 5000,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474345,6 +474345,18 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 547910,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_4_547910_d936652957ac24b84e2ec5088504b97d.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_4_547910_d936652957ac24b84e2ec5088504b97d.jpg",
+            "w": 942,
+            "h": 1600,
+            "title": "Lote 04",
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474361,10 +474373,10 @@
         "nrAtribuido": 5,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 500,
         "valorAvaliacao": 700,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474372,6 +474384,18 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 547911,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_5_547911_9341b13f7dbb8b072e1a5be77589b480.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_5_547911_9341b13f7dbb8b072e1a5be77589b480.jpg",
+            "w": 1200,
+            "h": 1600,
+            "title": "Lote 05",
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474388,10 +474412,10 @@
         "nrAtribuido": 6,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 100,
         "valorAvaliacao": 150,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474399,6 +474423,26 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 552235,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_6_552235_4009171ad6deaf865ed734f588f1fa11.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_6_552235_4009171ad6deaf865ed734f588f1fa11.jpg",
+            "w": 1536,
+            "h": 2048,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552236,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_6_552236_0a312b9c1c3f2de86499ae9ed9416397.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_6_552236_0a312b9c1c3f2de86499ae9ed9416397.jpg",
+            "w": 1536,
+            "h": 2048,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474415,10 +474459,10 @@
         "nrAtribuido": 7,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 850,
         "valorAvaliacao": 1250,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474426,6 +474470,53 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 552219,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_7_552219_672887c54d26d7a136e913f756cd5bd2.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_7_552219_672887c54d26d7a136e913f756cd5bd2.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552220,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_7_552220_d037df1c4c0d3100af2fdbce3db9f212.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_7_552220_d037df1c4c0d3100af2fdbce3db9f212.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552221,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_7_552221_207975b24f4a404914b3eef269c9139e.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_7_552221_207975b24f4a404914b3eef269c9139e.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552222,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_7_552222_4339e6c1dff62741b584ecde8ddf8aa1.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_7_552222_4339e6c1dff62741b584ecde8ddf8aa1.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552223,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_7_552223_b0fad77a8236eff40608cfad18ed7d07.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_7_552223_b0fad77a8236eff40608cfad18ed7d07.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474442,10 +474533,10 @@
         "nrAtribuido": 8,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 200,
         "valorAvaliacao": 300,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474453,6 +474544,44 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 552224,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_8_552224_fe24e406e70b77d887bb37110bbe3813.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_8_552224_fe24e406e70b77d887bb37110bbe3813.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552225,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_8_552225_4d6f9ee26035ddaaa9ee2998d7d497b7.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_8_552225_4d6f9ee26035ddaaa9ee2998d7d497b7.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552226,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_8_552226_f23d2f6954027a6ac577a0b9987ff3a3.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_8_552226_f23d2f6954027a6ac577a0b9987ff3a3.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552227,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_8_552227_4c6cf24a47708bb44106749534b12ccb.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_8_552227_4c6cf24a47708bb44106749534b12ccb.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474469,10 +474598,10 @@
         "nrAtribuido": 9,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 15,
         "valorAvaliacao": 20,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474480,6 +474609,26 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 552228,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_9_552228_1626da6418bebe963f0563ffd30c3e59.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_9_552228_1626da6418bebe963f0563ffd30c3e59.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552229,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_9_552229_46f72943c141cb64eeef7744faf5a375.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_9_552229_46f72943c141cb64eeef7744faf5a375.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474496,10 +474645,10 @@
         "nrAtribuido": 10,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 1750,
         "valorAvaliacao": 2500,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474507,6 +474656,53 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 552230,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_10_552230_d875ed84742ff57c3c671f87f902cf9d.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_10_552230_d875ed84742ff57c3c671f87f902cf9d.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552231,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_10_552231_2c9b0c3a98a670eb61a4c7801c580f0e.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_10_552231_2c9b0c3a98a670eb61a4c7801c580f0e.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552232,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_10_552232_9b02a6ffe41c30ead6bae8e225b18efb.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_10_552232_9b02a6ffe41c30ead6bae8e225b18efb.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552233,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_10_552233_1092fac064c9cab48eb204363e23fb66.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_10_552233_1092fac064c9cab48eb204363e23fb66.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 552234,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_10_552234_08f7a5fb06d6145a5a3b9a4c2b198cb8.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_10_552234_08f7a5fb06d6145a5a3b9a4c2b198cb8.jpg",
+            "w": 1920,
+            "h": 2560,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474523,10 +474719,10 @@
         "nrAtribuido": 11,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 1550,
         "valorAvaliacao": 2200,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474534,6 +474730,26 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 551623,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_11_551623_87f78c03111281b708718f62921403b9.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_11_551623_87f78c03111281b708718f62921403b9.jpg",
+            "w": 1123,
+            "h": 794,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551624,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_11_551624_037e4928d701b84e2f0998c1ffdc5314.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_11_551624_037e4928d701b84e2f0998c1ffdc5314.jpg",
+            "w": 1123,
+            "h": 794,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474550,10 +474766,10 @@
         "nrAtribuido": 12,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 258020,
         "valorAvaliacao": 368600,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474561,6 +474777,17 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 551620,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_12_551620_86cd10e19a98f4af9a4d4f42e89da1a2.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_12_551620_86cd10e19a98f4af9a4d4f42e89da1a2.jpg",
+            "w": 718,
+            "h": 880,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474577,10 +474804,10 @@
         "nrAtribuido": 13,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 800,
         "valorAvaliacao": 1200,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474588,6 +474815,35 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 551625,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_13_551625_ba14e55c64401a01dd18c6922291e30f.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_13_551625_ba14e55c64401a01dd18c6922291e30f.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551626,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_13_551626_010be51417b9b873b7bc4355db99b8e4.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_13_551626_010be51417b9b873b7bc4355db99b8e4.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551627,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_13_551627_60e0d728af7b52e9525d7f2836e1191e.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_13_551627_60e0d728af7b52e9525d7f2836e1191e.jpg",
+            "w": 640,
+            "h": 457,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474604,10 +474860,10 @@
         "nrAtribuido": 14,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 3500,
         "valorAvaliacao": 5000,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474615,6 +474871,44 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 551628,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_14_551628_c28aa3aa1dedd2650e75d42e62c6a9a1.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_14_551628_c28aa3aa1dedd2650e75d42e62c6a9a1.jpg",
+            "w": 3088,
+            "h": 3088,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551629,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_14_551629_b9b16da611ddd7b4ab8e267b9068aad5.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_14_551629_b9b16da611ddd7b4ab8e267b9068aad5.jpg",
+            "w": 480,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551630,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_14_551630_8081cdb8b4fb4fce61f36007b1f6d257.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_14_551630_8081cdb8b4fb4fce61f36007b1f6d257.jpg",
+            "w": 480,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 551631,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_14_551631_f6c2ed6db61eee26cb1d431fdeb0c8b3.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_14_551631_f6c2ed6db61eee26cb1d431fdeb0c8b3.jpg",
+            "w": 480,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474631,10 +474925,10 @@
         "nrAtribuido": 15,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 2100,
         "valorAvaliacao": 3000,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474642,6 +474936,17 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 551632,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_15_551632_e8da54dd76791d8d47daaa855ca8791a.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_15_551632_e8da54dd76791d8d47daaa855ca8791a.jpg",
+            "w": 614,
+            "h": 816,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474658,7 +474963,7 @@
         "nrAtribuido": 16,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 350,
         "valorAvaliacao": 500,
         "possuiImagens": false,
@@ -474685,7 +474990,7 @@
         "nrAtribuido": 17,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 2800,
         "valorAvaliacao": 4000,
         "possuiImagens": false,
@@ -474712,7 +475017,7 @@
         "nrAtribuido": 18,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 12600,
         "valorAvaliacao": 18000,
         "possuiImagens": false,
@@ -474739,7 +475044,7 @@
         "nrAtribuido": 19,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 7000,
         "valorAvaliacao": 10000,
         "possuiImagens": false,
@@ -474766,10 +475071,10 @@
         "nrAtribuido": 20,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 2800,
         "valorAvaliacao": 4000,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474777,6 +475082,154 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 547912,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547912_f28838517de31984e6b9fc7de8530033.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547912_f28838517de31984e6b9fc7de8530033.jpg",
+            "w": 640,
+            "h": 480,
+            "title": "Lote 20",
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547913,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547913_3a0750295fce827af4fb98bae160b87c.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547913_3a0750295fce827af4fb98bae160b87c.jpg",
+            "w": 640,
+            "h": 480,
+            "title": "2",
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547914,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547914_d466604fb6cc0904daa50403c17c689b.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547914_d466604fb6cc0904daa50403c17c689b.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547915,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547915_9fc8523020d63fafc800639c0a311b54.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547915_9fc8523020d63fafc800639c0a311b54.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547916,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547916_bf77100f48911107289635eed1ffb669.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547916_bf77100f48911107289635eed1ffb669.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547917,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547917_6ed8a4016256a2d6d6c5cd586a0726cf.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547917_6ed8a4016256a2d6d6c5cd586a0726cf.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547918,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547918_f4965edfba25691a12e17ac526278025.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547918_f4965edfba25691a12e17ac526278025.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547919,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547919_53036f4e42fde7279ebf8171d83c4833.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547919_53036f4e42fde7279ebf8171d83c4833.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547920,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547920_256db9f8d53034af9af3f3e032f806cd.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547920_256db9f8d53034af9af3f3e032f806cd.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547921,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547921_3b3d90a9c58d5aaa38b1af84e7807720.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547921_3b3d90a9c58d5aaa38b1af84e7807720.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547922,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547922_15dcc0c5dffb2375c27f8e552c00e1bd.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547922_15dcc0c5dffb2375c27f8e552c00e1bd.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547923,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547923_1b822a78f73d7cb309c6d91efd8dfca8.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547923_1b822a78f73d7cb309c6d91efd8dfca8.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547924,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547924_80dc75b760e066e4ba3c6d9bf6874f2b.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547924_80dc75b760e066e4ba3c6d9bf6874f2b.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547925,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547925_4fc814961bbfecbd7c0d65dfc1e9cf2e.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547925_4fc814961bbfecbd7c0d65dfc1e9cf2e.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547926,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547926_978d37e7fa0d05ce7ae27d1c9650e4b0.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547926_978d37e7fa0d05ce7ae27d1c9650e4b0.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547927,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_20_547927_d2425942239519185d80e666650e9afe.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_20_547927_d2425942239519185d80e666650e9afe.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474793,10 +475246,10 @@
         "nrAtribuido": 21,
         "situacaoEdital": 0,
         "tipo": "RESÍDUOS",
-        "situacaoLote": 11,
+        "situacaoLote": 12,
         "valorMinimo": 1171,
         "valorAvaliacao": 11712.89,
-        "possuiImagens": false,
+        "possuiImagens": true,
         "destaque": false,
         "permitePF": false,
         "permiteVisualizarFotos": false,
@@ -474804,6 +475257,152 @@
         "tipoEdital": 0,
         "nrAvisos": 0,
         "nrErratas": 0,
+        "imagens": [
+          {
+            "imllNrSq": 547928,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547928_c835ebb5a1ac8968c504af181224deca.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547928_c835ebb5a1ac8968c504af181224deca.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547930,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547930_c9c60e9f84e7129b622809519908751a.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547930_c9c60e9f84e7129b622809519908751a.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547931,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547931_1911833c5a7533560199f57a60800aab.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547931_1911833c5a7533560199f57a60800aab.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547933,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547933_cb1fbfc94b5f4dfb8ee82bd8e46a90de.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547933_cb1fbfc94b5f4dfb8ee82bd8e46a90de.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547936,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547936_46f28b9299fdb59f952c91b375fdbe80.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547936_46f28b9299fdb59f952c91b375fdbe80.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547938,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547938_a1c81111f342f8c5673de09a424714a0.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547938_a1c81111f342f8c5673de09a424714a0.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547939,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547939_9912073deb9e050857849d3c6ee1f9b7.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547939_9912073deb9e050857849d3c6ee1f9b7.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547940,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547940_b048a04df3577b9b57f74e091b3a51ef.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547940_b048a04df3577b9b57f74e091b3a51ef.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547941,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547941_5580a347f167d01579075e20aa5d6857.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547941_5580a347f167d01579075e20aa5d6857.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547942,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547942_6382c856695600ad71f5ba94556172b2.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547942_6382c856695600ad71f5ba94556172b2.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547943,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547943_22a451ebc194a616eaed0fe27c3dbafd.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547943_22a451ebc194a616eaed0fe27c3dbafd.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547944,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547944_d997749494c70bbea02277b9c0d4b5bc.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547944_d997749494c70bbea02277b9c0d4b5bc.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547945,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547945_e28aa4cf8f163db498bcad7888f74c28.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547945_e28aa4cf8f163db498bcad7888f74c28.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547946,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547946_55a7e6298ac2934aa3752bd07d7759bf.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547946_55a7e6298ac2934aa3752bd07d7759bf.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547947,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547947_770f76b45ec3ca338b6c004580e0a35e.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547947_770f76b45ec3ca338b6c004580e0a35e.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          },
+          {
+            "imllNrSq": 547948,
+            "src": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_800100_2026_11_21_547948_443813404f6c771dc5d982f5bd06002d.jpg",
+            "min": "https://storagegw.estaleiro.serpro.gov.br/sle-pro-publico/arquivos/images/2026/800100/11/foto_pq_800100_2026_11_21_547948_443813404f6c771dc5d982f5bd06002d.jpg",
+            "w": 640,
+            "h": 480,
+            "destaque": false,
+            "selecionada": false
+          }
+        ],
         "permiteEmitirOrientacoesGru": false,
         "permiteEmitirDarf": false,
         "permiteEmitirDarfSinalComplemento": false,
@@ -474844,8 +475443,10 @@
     "tipoEdital": null,
     "leilaoOutrosBens": false,
     "txInfoGru": null,
-    "situacaoCodigo": 2,
-    "situacaoLabel": "Disponibilizado"
+    "numeroGuiaLicitacaoInicial": null,
+    "existemLotesSemDefinicaoReaproveitamento": false,
+    "situacaoCodigo": 3,
+    "situacaoLabel": "Aberto para Proposta"
   },
   {
     "edital": "0700100/000013/2026",
