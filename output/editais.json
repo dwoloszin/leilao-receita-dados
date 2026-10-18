@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-17 06:14",
+  "agora": "2026-10-18 06:14",
   "situacoes": [
     {
       "situacao": 2,
@@ -966,20 +966,6 @@
           "dataFimPropostas": "2026-02-09 20:00",
           "dataAberturaLances": "2026-02-10 10:00",
           "lotes": 200
-        },
-        {
-          "edital": "0100100/000006/2025",
-          "edle": "100100/6/2025",
-          "codigoSituacao": 11,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BRASÍLIA",
-          "dataInicioPropostas": "2025-11-18 08:00",
-          "dataFimPropostas": "2025-11-24 21:00",
-          "dataAberturaLances": "2025-11-25 10:30",
-          "lotes": 280
         }
       ]
     },
