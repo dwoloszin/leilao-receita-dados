@@ -1,10 +1,38 @@
 {
-  "agora": "2026-10-23 06:16",
+  "agora": "2026-10-24 06:14",
   "situacoes": [
     {
       "situacao": 2,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0517800/000005/2026",
+          "edle": "517800/5/2026",
+          "codigoSituacao": 2,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SALVADOR",
+          "orgao": "RFB",
+          "cidade": "SALVADOR",
+          "dataInicioPropostas": "2026-11-18 08:00",
+          "dataFimPropostas": "2026-11-24 21:00",
+          "dataAberturaLances": "2026-11-25 11:00",
+          "lotes": 36
+        },
+        {
+          "edital": "0800100/000015/2026",
+          "edle": "800100/15/2026",
+          "codigoSituacao": 2,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "SÃO PAULO",
+          "dataInicioPropostas": "2026-11-16 08:00",
+          "dataFimPropostas": "2026-11-23 21:00",
+          "dataAberturaLances": "2026-11-24 10:00",
+          "lotes": 300
+        },
         {
           "edital": "0600100/000006/2026",
           "edle": "600100/6/2026",
@@ -182,13 +210,13 @@
       ]
     },
     {
-      "situacao": 4,
+      "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0800100/000011/2026",
           "edle": "800100/11/2026",
-          "codigoSituacao": 4,
+          "codigoSituacao": 8,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
@@ -198,13 +226,7 @@
           "dataFimPropostas": "2026-10-22 21:00",
           "dataAberturaLances": "2026-10-23 10:00",
           "lotes": 21
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0900100/000011/2026",
           "edle": "900100/11/2026",
