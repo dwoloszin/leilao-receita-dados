@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-25 06:14",
+  "agora": "2026-10-26 06:25",
   "situacoes": [
     {
       "situacao": 2,
@@ -862,20 +862,6 @@
           "dataFimPropostas": "2025-12-03 21:00",
           "dataAberturaLances": "2025-12-05 10:00",
           "lotes": 216
-        },
-        {
-          "edital": "0717800/000006/2025",
-          "edle": "717800/6/2025",
-          "codigoSituacao": 15,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "PORTO DE ITAGUAÍ",
-          "orgao": "RFB",
-          "cidade": "ITAGUAÍ",
-          "dataInicioPropostas": "2025-11-28 11:00",
-          "dataFimPropostas": "2025-12-03 18:00",
-          "dataAberturaLances": "2025-12-04 14:00",
-          "lotes": 18
         }
       ]
     },
@@ -1308,20 +1294,6 @@
           "dataFimPropostas": "2025-12-04 18:00",
           "dataAberturaLances": "2025-12-05 14:00",
           "lotes": 157
-        },
-        {
-          "edital": "0100100/000007/2025",
-          "edle": "100100/7/2025",
-          "codigoSituacao": 12,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BRASÍLIA",
-          "dataInicioPropostas": "2025-11-25 08:00",
-          "dataFimPropostas": "2025-12-01 21:00",
-          "dataAberturaLances": "2025-12-02 10:30",
-          "lotes": 8
         }
       ]
     },
