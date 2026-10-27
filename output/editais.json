@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-26 06:25",
+  "agora": "2026-10-27 06:18",
   "situacoes": [
     {
       "situacao": 2,
@@ -146,20 +146,6 @@
           "lotes": 230
         },
         {
-          "edital": "0800100/000007/2026",
-          "edle": "800100/7/2026",
-          "codigoSituacao": 2,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "SÃO PAULO",
-          "dataInicioPropostas": "2026-10-26 08:00",
-          "dataFimPropostas": "2026-11-04 21:00",
-          "dataAberturaLances": "2026-11-05 10:00",
-          "lotes": 134
-        },
-        {
           "edital": "0727600/000003/2026",
           "edle": "727600/3/2026",
           "codigoSituacao": 2,
@@ -172,11 +158,31 @@
           "dataFimPropostas": "2026-10-29 18:00",
           "dataAberturaLances": "2026-10-30 15:00",
           "lotes": 38
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
+        {
+          "edital": "0800100/000007/2026",
+          "edle": "800100/7/2026",
+          "codigoSituacao": 3,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "SÃO PAULO",
+          "dataInicioPropostas": "2026-10-26 08:00",
+          "dataFimPropostas": "2026-11-04 21:00",
+          "dataAberturaLances": "2026-11-05 10:00",
+          "lotes": 134
         },
         {
           "edital": "0400100/000002/2026",
           "edle": "400100/2/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 4ª REGIÃO FISCAL",
@@ -190,13 +196,13 @@
       ]
     },
     {
-      "situacao": 3,
+      "situacao": 4,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0700100/000013/2026",
           "edle": "700100/13/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
@@ -226,11 +232,17 @@
           "dataFimPropostas": "2026-10-22 21:00",
           "dataAberturaLances": "2026-10-23 10:00",
           "lotes": 21
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 15,
+      "editaisEstaoLimitados": true,
+      "lista": [
         {
           "edital": "0900100/000011/2026",
           "edle": "900100/11/2026",
-          "codigoSituacao": 8,
+          "codigoSituacao": 15,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
@@ -240,13 +252,7 @@
           "dataFimPropostas": "2026-10-19 21:00",
           "dataAberturaLances": "2026-10-20 10:00",
           "lotes": 318
-        }
-      ]
-    },
-    {
-      "situacao": 15,
-      "editaisEstaoLimitados": true,
-      "lista": [
+        },
         {
           "edital": "0717600/000006/2026",
           "edle": "717600/6/2026",
