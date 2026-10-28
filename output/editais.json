@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-27 06:18",
+  "agora": "2026-10-28 06:13",
   "situacoes": [
     {
       "situacao": 2,
@@ -132,20 +132,6 @@
           "lotes": 179
         },
         {
-          "edital": "1000100/000005/2026",
-          "edle": "1000100/5/2026",
-          "codigoSituacao": 2,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 10ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "PORTO ALEGRE",
-          "dataInicioPropostas": "2026-10-27 12:00",
-          "dataFimPropostas": "2026-11-04 18:00",
-          "dataAberturaLances": "2026-11-05 14:00",
-          "lotes": 230
-        },
-        {
           "edital": "0727600/000003/2026",
           "edle": "727600/3/2026",
           "codigoSituacao": 2,
@@ -165,6 +151,20 @@
       "situacao": 3,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "1000100/000005/2026",
+          "edle": "1000100/5/2026",
+          "codigoSituacao": 3,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 10ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "PORTO ALEGRE",
+          "dataInicioPropostas": "2026-10-27 12:00",
+          "dataFimPropostas": "2026-11-04 18:00",
+          "dataAberturaLances": "2026-11-05 14:00",
+          "lotes": 230
+        },
         {
           "edital": "0800100/000007/2026",
           "edle": "800100/7/2026",
@@ -196,13 +196,13 @@
       ]
     },
     {
-      "situacao": 4,
+      "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0700100/000013/2026",
           "edle": "700100/13/2026",
-          "codigoSituacao": 4,
+          "codigoSituacao": 8,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
@@ -212,13 +212,7 @@
           "dataFimPropostas": "2026-10-26 18:00",
           "dataAberturaLances": "2026-10-27 10:00",
           "lotes": 46
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0800100/000011/2026",
           "edle": "800100/11/2026",
