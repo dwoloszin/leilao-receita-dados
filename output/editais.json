@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-29 06:12",
+  "agora": "2026-10-30 06:12",
   "situacoes": [
     {
       "situacao": 2,
@@ -164,11 +164,17 @@
           "dataFimPropostas": "2026-11-04 21:00",
           "dataAberturaLances": "2026-11-05 10:00",
           "lotes": 134
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0727600/000003/2026",
           "edle": "727600/3/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "PORTO DE VITÓRIA",
@@ -182,7 +188,7 @@
         {
           "edital": "0400100/000002/2026",
           "edle": "400100/2/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 4ª REGIÃO FISCAL",
