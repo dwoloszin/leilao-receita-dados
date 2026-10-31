@@ -1,5 +1,5 @@
 {
-  "agora": "2026-10-30 06:12",
+  "agora": "2026-10-31 06:09",
   "situacoes": [
     {
       "situacao": 2,
@@ -172,20 +172,6 @@
       "editaisEstaoLimitados": false,
       "lista": [
         {
-          "edital": "0727600/000003/2026",
-          "edle": "727600/3/2026",
-          "codigoSituacao": 4,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "PORTO DE VITÓRIA",
-          "orgao": "RFB",
-          "cidade": "VITÓRIA",
-          "dataInicioPropostas": "2026-10-28 08:00",
-          "dataFimPropostas": "2026-10-29 18:00",
-          "dataAberturaLances": "2026-10-30 15:00",
-          "lotes": 38
-        },
-        {
           "edital": "0400100/000002/2026",
           "edle": "400100/2/2026",
           "codigoSituacao": 4,
@@ -205,6 +191,20 @@
       "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0727600/000003/2026",
+          "edle": "727600/3/2026",
+          "codigoSituacao": 8,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "PORTO DE VITÓRIA",
+          "orgao": "RFB",
+          "cidade": "VITÓRIA",
+          "dataInicioPropostas": "2026-10-28 08:00",
+          "dataFimPropostas": "2026-10-29 18:00",
+          "dataAberturaLances": "2026-10-30 15:00",
+          "lotes": 38
+        },
         {
           "edital": "0700100/000013/2026",
           "edle": "700100/13/2026",
@@ -854,20 +854,6 @@
           "dataFimPropostas": "2026-02-02 21:00",
           "dataAberturaLances": "2026-02-03 10:00",
           "lotes": 289
-        },
-        {
-          "edital": "0800100/000008/2025",
-          "edle": "800100/8/2025",
-          "codigoSituacao": 15,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "SÃO PAULO",
-          "dataInicioPropostas": "2025-11-27 08:00",
-          "dataFimPropostas": "2025-12-03 21:00",
-          "dataAberturaLances": "2025-12-05 10:00",
-          "lotes": 216
         }
       ]
     },
@@ -1272,20 +1258,6 @@
           "dataFimPropostas": "2026-01-07 18:00",
           "dataAberturaLances": "2026-01-08 10:00",
           "lotes": 14
-        },
-        {
-          "edital": "0317900/000004/2025",
-          "edle": "317900/4/2025",
-          "codigoSituacao": 12,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "FORTALEZA",
-          "orgao": "RFB",
-          "cidade": "FORTALEZA",
-          "dataInicioPropostas": "2025-12-01 08:00",
-          "dataFimPropostas": "2025-12-05 21:00",
-          "dataAberturaLances": "2025-12-08 10:00",
-          "lotes": 500
         },
         {
           "edital": "1000100/000004/2025",
