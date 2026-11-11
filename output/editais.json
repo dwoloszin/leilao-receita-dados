@@ -1,5 +1,5 @@
 {
-  "agora": "2026-11-10 06:11",
+  "agora": "2026-11-11 06:11",
   "situacoes": [
     {
       "situacao": 2,
@@ -60,11 +60,17 @@
           "dataFimPropostas": "2026-11-18 21:00",
           "dataAberturaLances": "2026-11-19 10:00",
           "lotes": 63
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0900100/000012/2026",
           "edle": "900100/12/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
@@ -74,13 +80,7 @@
           "dataFimPropostas": "2026-11-16 21:00",
           "dataAberturaLances": "2026-11-17 10:00",
           "lotes": 485
-        }
-      ]
-    },
-    {
-      "situacao": 3,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0317900/000005/2026",
           "edle": "317900/5/2026",
@@ -108,11 +108,17 @@
           "dataFimPropostas": "2026-11-11 18:00",
           "dataAberturaLances": "2026-11-12 10:30",
           "lotes": 9
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0800100/000014/2026",
           "edle": "800100/14/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
@@ -126,7 +132,7 @@
         {
           "edital": "0717800/000004/2026",
           "edle": "717800/4/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "PORTO DE ITAGUAÍ",
@@ -140,13 +146,13 @@
       ]
     },
     {
-      "situacao": 4,
+      "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0200100/000002/2026",
           "edle": "200100/2/2026",
-          "codigoSituacao": 4,
+          "codigoSituacao": 8,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 2ª REGIÃO FISCAL",
@@ -156,13 +162,7 @@
           "dataFimPropostas": "2026-11-09 20:00",
           "dataAberturaLances": "2026-11-10 10:00",
           "lotes": 179
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "1000100/000005/2026",
           "edle": "1000100/5/2026",
