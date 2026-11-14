@@ -1,10 +1,24 @@
 {
-  "agora": "2026-11-13 06:12",
+  "agora": "2026-11-14 06:09",
   "situacoes": [
     {
       "situacao": 2,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0700100/000014/2026",
+          "edle": "700100/14/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-12-07 09:00",
+          "dataFimPropostas": "2026-12-10 18:00",
+          "dataAberturaLances": "2026-12-11 10:00",
+          "lotes": 37
+        },
         {
           "edital": "0317900/000004/2026",
           "edle": "317900/4/2026",
@@ -80,11 +94,17 @@
           "dataFimPropostas": "2026-11-16 21:00",
           "dataAberturaLances": "2026-11-17 10:00",
           "lotes": 485
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0317900/000005/2026",
           "edle": "317900/5/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "FORTALEZA",
