@@ -73,3 +73,4 @@
 {"quando": "2026-11-14T09:11:00+00:00", "editais": {"novo": 1, "atualizado": 1, "sem_mudanca": 88}, "lotes": {"novo": 1902, "atualizado": 54, "sem_mudanca": 9950, "erro": 1917}}
 {"quando": "2026-11-15T09:10:52+00:00", "editais": {"novo": 0, "atualizado": 0, "sem_mudanca": 90}, "lotes": {"novo": 1865, "atualizado": 52, "sem_mudanca": 9989, "erro": 1917}}
 {"quando": "2026-11-16T09:17:01+00:00", "editais": {"novo": 0, "atualizado": 0, "sem_mudanca": 90}, "lotes": {"novo": 1865, "atualizado": 52, "sem_mudanca": 9989, "erro": 1917}}
+{"quando": "2026-11-17T09:14:28+00:00", "editais": {"novo": 0, "atualizado": 8, "sem_mudanca": 82}, "lotes": {"novo": 1865, "atualizado": 1256, "sem_mudanca": 8785, "erro": 1922}}
