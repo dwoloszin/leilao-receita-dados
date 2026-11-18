@@ -1,10 +1,38 @@
 {
-  "agora": "2026-11-17 06:11",
+  "agora": "2026-11-18 06:11",
   "situacoes": [
     {
       "situacao": 2,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0100100/000007/2026",
+          "edle": "100100/7/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BRASÍLIA",
+          "dataInicioPropostas": "2026-12-10 08:00",
+          "dataFimPropostas": "2026-12-15 21:00",
+          "dataAberturaLances": "2026-12-16 10:30",
+          "lotes": 14
+        },
+        {
+          "edital": "0100100/000006/2026",
+          "edle": "100100/6/2026",
+          "codigoSituacao": 2,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 1ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BRASÍLIA",
+          "dataInicioPropostas": "2026-12-10 08:00",
+          "dataFimPropostas": "2026-12-14 21:00",
+          "dataAberturaLances": "2026-12-15 10:30",
+          "lotes": 362
+        },
         {
           "edital": "0700100/000014/2026",
           "edle": "700100/14/2026",
@@ -84,13 +112,13 @@
       ]
     },
     {
-      "situacao": 4,
+      "situacao": 8,
       "editaisEstaoLimitados": false,
       "lista": [
         {
           "edital": "0900100/000012/2026",
           "edle": "900100/12/2026",
-          "codigoSituacao": 4,
+          "codigoSituacao": 8,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 9ª REGIÃO FISCAL",
@@ -100,13 +128,7 @@
           "dataFimPropostas": "2026-11-16 21:00",
           "dataAberturaLances": "2026-11-17 10:00",
           "lotes": 485
-        }
-      ]
-    },
-    {
-      "situacao": 8,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0317900/000005/2026",
           "edle": "317900/5/2026",
@@ -134,11 +156,17 @@
           "dataFimPropostas": "2026-11-10 21:00",
           "dataAberturaLances": "2026-11-12 10:00",
           "lotes": 203
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 10,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0800100/000007/2026",
           "edle": "800100/7/2026",
-          "codigoSituacao": 8,
+          "codigoSituacao": 10,
           "permitePF": false,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
@@ -862,20 +890,6 @@
       "editaisEstaoLimitados": true,
       "lista": [
         {
-          "edital": "0600100/000005/2026",
-          "edle": "600100/5/2026",
-          "codigoSituacao": 11,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
-          "orgao": "RFB",
-          "cidade": "BELO HORIZONTE",
-          "dataInicioPropostas": "2026-09-28 08:00",
-          "dataFimPropostas": "2026-09-30 21:00",
-          "dataAberturaLances": "2026-10-01 10:00",
-          "lotes": 12
-        },
-        {
           "edital": "0727600/000002/2026",
           "edle": "727600/2/2026",
           "codigoSituacao": 11,
@@ -1007,6 +1021,20 @@
       "situacao": 12,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0600100/000005/2026",
+          "edle": "600100/5/2026",
+          "codigoSituacao": 12,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "BELO HORIZONTE",
+          "dataInicioPropostas": "2026-09-28 08:00",
+          "dataFimPropostas": "2026-09-30 21:00",
+          "dataAberturaLances": "2026-10-01 10:00",
+          "lotes": 12
+        },
         {
           "edital": "0600100/000003/2026",
           "edle": "600100/3/2026",
