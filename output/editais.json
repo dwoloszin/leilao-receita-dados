@@ -1,5 +1,5 @@
 {
-  "agora": "2026-11-18 06:11",
+  "agora": "2026-11-19 06:11",
   "situacoes": [
     {
       "situacao": 2,
@@ -34,6 +34,20 @@
           "lotes": 362
         },
         {
+          "edital": "0700100/000015/2026",
+          "edle": "700100/15/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 7ª REGIÃO FISCAL",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-12-11 09:00",
+          "dataFimPropostas": "2026-12-14 18:00",
+          "dataAberturaLances": "2026-12-15 10:00",
+          "lotes": 1
+        },
+        {
           "edital": "0700100/000014/2026",
           "edle": "700100/14/2026",
           "codigoSituacao": 2,
@@ -60,11 +74,17 @@
           "dataFimPropostas": "2026-12-04 21:00",
           "dataAberturaLances": "2026-12-07 10:00",
           "lotes": 348
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 3,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0517800/000005/2026",
           "edle": "517800/5/2026",
-          "codigoSituacao": 2,
+          "codigoSituacao": 3,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SALVADOR",
@@ -74,13 +94,7 @@
           "dataFimPropostas": "2026-11-24 21:00",
           "dataAberturaLances": "2026-11-25 11:00",
           "lotes": 36
-        }
-      ]
-    },
-    {
-      "situacao": 3,
-      "editaisEstaoLimitados": false,
-      "lista": [
+        },
         {
           "edital": "0800100/000015/2026",
           "edle": "800100/15/2026",
@@ -94,11 +108,17 @@
           "dataFimPropostas": "2026-11-23 21:00",
           "dataAberturaLances": "2026-11-24 10:00",
           "lotes": 300
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0600100/000006/2026",
           "edle": "600100/6/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 6ª REGIÃO FISCAL",
@@ -532,20 +552,6 @@
           "dataFimPropostas": "2026-08-19 18:00",
           "dataAberturaLances": "2026-08-20 10:00",
           "lotes": 1
-        },
-        {
-          "edital": "0717700/000002/2026",
-          "edle": "717700/2/2026",
-          "codigoSituacao": 15,
-          "permitePF": true,
-          "tipo": "1",
-          "uaNm": "AEROPORTO INTERNACIONAL DO GALEÃO",
-          "orgao": "RFB",
-          "cidade": "RIO DE JANEIRO",
-          "dataInicioPropostas": "2026-08-03 08:00",
-          "dataFimPropostas": "2026-08-12 18:00",
-          "dataAberturaLances": "2026-08-13 10:30",
-          "lotes": 10
         },
         {
           "edital": "0700100/000009/2026",
@@ -1034,6 +1040,20 @@
           "dataFimPropostas": "2026-09-30 21:00",
           "dataAberturaLances": "2026-10-01 10:00",
           "lotes": 12
+        },
+        {
+          "edital": "0717700/000002/2026",
+          "edle": "717700/2/2026",
+          "codigoSituacao": 12,
+          "permitePF": true,
+          "tipo": "1",
+          "uaNm": "AEROPORTO INTERNACIONAL DO GALEÃO",
+          "orgao": "RFB",
+          "cidade": "RIO DE JANEIRO",
+          "dataInicioPropostas": "2026-08-03 08:00",
+          "dataFimPropostas": "2026-08-12 18:00",
+          "dataAberturaLances": "2026-08-13 10:30",
+          "lotes": 10
         },
         {
           "edital": "0600100/000003/2026",
