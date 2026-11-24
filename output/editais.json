@@ -1,10 +1,24 @@
 {
-  "agora": "2026-11-23 06:14",
+  "agora": "2026-11-24 06:12",
   "situacoes": [
     {
       "situacao": 2,
       "editaisEstaoLimitados": false,
       "lista": [
+        {
+          "edital": "0717800/000005/2026",
+          "edle": "717800/5/2026",
+          "codigoSituacao": 2,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "PORTO DE ITAGUAÍ",
+          "orgao": "RFB",
+          "cidade": "ITAGUAÍ",
+          "dataInicioPropostas": "2026-12-16 11:00",
+          "dataFimPropostas": "2026-12-21 18:00",
+          "dataAberturaLances": "2026-12-22 14:00",
+          "lotes": 32
+        },
         {
           "edital": "0100100/000007/2026",
           "edle": "100100/7/2026",
@@ -94,11 +108,17 @@
           "dataFimPropostas": "2026-11-24 21:00",
           "dataAberturaLances": "2026-11-25 11:00",
           "lotes": 36
-        },
+        }
+      ]
+    },
+    {
+      "situacao": 4,
+      "editaisEstaoLimitados": false,
+      "lista": [
         {
           "edital": "0800100/000015/2026",
           "edle": "800100/15/2026",
-          "codigoSituacao": 3,
+          "codigoSituacao": 4,
           "permitePF": true,
           "tipo": "1",
           "uaNm": "SUPERINTENDÊNCIA REGIONAL DA RECEITA FEDERAL DO BRASIL DA 8ª REGIÃO FISCAL",
@@ -144,20 +164,6 @@
           "lotes": 485
         },
         {
-          "edital": "0317900/000005/2026",
-          "edle": "317900/5/2026",
-          "codigoSituacao": 8,
-          "permitePF": false,
-          "tipo": "1",
-          "uaNm": "FORTALEZA",
-          "orgao": "RFB",
-          "cidade": "FORTALEZA",
-          "dataInicioPropostas": "2026-11-09 08:00",
-          "dataFimPropostas": "2026-11-13 21:00",
-          "dataAberturaLances": "2026-11-16 10:00",
-          "lotes": 2
-        },
-        {
           "edital": "0800100/000014/2026",
           "edle": "800100/14/2026",
           "codigoSituacao": 8,
@@ -177,6 +183,20 @@
       "situacao": 15,
       "editaisEstaoLimitados": true,
       "lista": [
+        {
+          "edital": "0317900/000005/2026",
+          "edle": "317900/5/2026",
+          "codigoSituacao": 15,
+          "permitePF": false,
+          "tipo": "1",
+          "uaNm": "FORTALEZA",
+          "orgao": "RFB",
+          "cidade": "FORTALEZA",
+          "dataInicioPropostas": "2026-11-09 08:00",
+          "dataFimPropostas": "2026-11-13 21:00",
+          "dataAberturaLances": "2026-11-16 10:00",
+          "lotes": 2
+        },
         {
           "edital": "0717700/000003/2026",
           "edle": "717700/3/2026",
